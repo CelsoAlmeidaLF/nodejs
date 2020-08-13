@@ -1,14 +1,47 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
-  mode:"development",
-  entry: "",
+  entry: "./src/js/index.js",
   output: {
     filename:'main.js',
-    path: path.resolve("./dist"),
+    path: path.resolve(__dirname, "build"),
   },
-  devtool: 'source-map',
+  plugins: [
+    new HtmlWebpackPlugin({
+      filename: "index.html",
+      template: "./src/index.html"
+    }),
+    new MiniCssExtractPlugin({
+      filename: "styles.css"
+    })
+  ],
   module: {
-    rules: []
+    rules:
+    [
+      {
+        test: /\.(sa|sc|c)ss$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'sass-loader'
+        ]
+      },
+      {
+        test: /\.css$/i,
+        use: [ 'style-loader', 'css-loader' ]
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader:  'babel-loader',
+          options: {
+            presets: [ '@babel/preset-env' ]
+          }
+        }
+      }
+    ]
   }
 }
