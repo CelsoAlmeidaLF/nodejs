@@ -1,5 +1,17 @@
 $color-page: #F4F6F6;
 
+@font-face{
+    font-family: 'galada';
+    src: url(./../../fonts/Galada-Regular.ttf);
+    font-style: normal;
+}
+
 body{
   background-color: $color-page;
+}
+
+.navbar-brand{
+  font-family: galada;
+  font-weight: 300;
+  font-size: 2rem !important;
 }
