@@ -4,8 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "webpack -p",
-    "server": "webpack-dev-server"
+    "start": "nodemon ./src/index.js",
+    "build": "webpack -p"
   },
   "keywords": [],
   "author": "systekna",
