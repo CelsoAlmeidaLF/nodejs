@@ -10,7 +10,7 @@ app.set('view engine','handlebars')
 
 // public
 app.use(express.static(path.join(__dirname,'../public')))
-app.use(express.static(path.join(__dirname,'../build')))
+//app.use(express.static(path.join(__dirname,'../build')))
 
 // rotas
 app.get('/', (req, res) => { res.render('home/index')})
