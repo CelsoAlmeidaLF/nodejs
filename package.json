@@ -4,9 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "nodemon ./src/index.js",
-    "sass": "sass ./puplic/styles/scss:public/styles/css",
-    "build": "webpack -p"
+    "start": "nodemon ./src/server.js",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "systekna",
