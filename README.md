@@ -2,7 +2,7 @@
   Criação de front-end com nodejs
 
 ### Criação de diretórios
-```
+```[codigo-fonte]
 
   $ mkdir src public views
   views/{home,layouts,partials}
