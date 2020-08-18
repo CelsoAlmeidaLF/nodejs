@@ -1,7 +1,7 @@
 ## BABEL
 
 
-```
+```js
 
 {
   "presets":[[
