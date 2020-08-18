@@ -1,5 +1,14 @@
-## BABEL
+## CONFIG BABEL
 
+Arquivo `.babelrc`
+
+```sh
+
+$ touch .babelrc
+
+```
+
+Código padrão utilizado.
 
 ```js
 
