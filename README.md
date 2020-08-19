@@ -26,7 +26,6 @@ $ npm init -y && git init
 ```
 <br>
 
-
 ### Instalação de depencias
 ```sh
 
@@ -42,8 +41,35 @@ $ npm i -D @babel/cli @babel/core @babel/node @babel/preset-env
 ```
 <hr>
 
+### Comando `Express`
+<br>
+
+ Código fonte de `index.js`
+
+```js
+
+const express = require('express')
+const app = express()
+const port = 3000
+
+/*
+ *   Comandos de configuração, e
+ *   Comandos de rotas
+ */
+
+// outros
+app.listen(port, () => {
+  console.log(`server runnin is http://localhost:${port}`)
+})
+
+
+```
+
+<hr>
+
 ### Config Webpack
 <br>
+
 Novo arquivo `webpack.config.js`
 
 ```sh
