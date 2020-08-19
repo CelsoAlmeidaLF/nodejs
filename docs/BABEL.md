@@ -1,6 +1,6 @@
 ## CONFIG BABEL
 
-Arquivo `.babelrc`
+Novo arquivo `.babelrc`
 
 ```sh
 
@@ -8,7 +8,7 @@ $ touch .babelrc
 
 ```
 
-Código padrão utilizado.
+Código-fonte `.babelrc`
 
 ```js
 
