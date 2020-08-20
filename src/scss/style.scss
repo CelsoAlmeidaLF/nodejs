@@ -2,7 +2,6 @@
 
 $bgd-color: #4A235A !important;
 $bgd-capa: #EAECEE !important;
-$bgd-capa-servicos: #EAEDED !important;
 $font-color: #ECF0F1 !important;
 
 .navbar{
@@ -15,10 +14,10 @@ $font-color: #ECF0F1 !important;
   background-color: $bgd-capa;
 }
 
-#capa-servicos{
-  background-color: $bgd-capa-servicos;
-}
-
 .jumbotron{
   background-color: transparent;
+}
+
+footer{
+  background-color: $bgd-capa;
 }
