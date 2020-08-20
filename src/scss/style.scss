@@ -1,1 +1,10 @@
 @import '~bootstrap/scss/bootstrap';
+
+$bgd-color: #4A235A !important;
+$font-color: #ECF0F1 !important;
+
+.navbar{
+  font-size: 1.6rem;
+  background-color: $bgd-color;
+  color: $font-color;
+}
