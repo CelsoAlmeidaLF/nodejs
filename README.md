@@ -5,7 +5,7 @@
 ### Criação de diretórios
 ```sh
 
-$ mkdir src public views views/{home,layouts,partials} public/{images,fonts,scripts,styles}
+$ mkdir src bin public views views/{home,layouts,partials} public/{images,fonts,scripts,styles} src/{img,fonts,js,scss}
 
 ```
 <br>
@@ -13,7 +13,7 @@ $ mkdir src public views views/{home,layouts,partials} public/{images,fonts,scri
 ### Criação de arquivos
 ```sh
 
-$ touch src/index.js .babelrc webpack.config.js gulpfile.js .gitignore README.md
+$ touch bin/index.js .babelrc webpack.config.js gulpfile.js .gitignore README.md
 
 ```
 <br>
