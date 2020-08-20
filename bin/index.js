@@ -13,6 +13,9 @@ app.use(express.static(path.join(__dirname,'../public')))
 
 // rotas
 app.get('/', (req, res) => { res.render('home/index')})
+app.get('/sobre', (req, res) => { res.render('home/sobre')})
+app.get('/servicos', (req, res) => { res.render('home/servicos')})
+app.get('/contato', (req, res) => { res.render('home/contato')})
 
 // outros
 app.listen(port, () => { console.log(`server runnin is http://localhost:${port}`) })

@@ -1,10 +1,24 @@
 @import '~bootstrap/scss/bootstrap';
 
 $bgd-color: #4A235A !important;
+$bgd-capa: #EAECEE !important;
+$bgd-capa-servicos: #EAEDED !important;
 $font-color: #ECF0F1 !important;
 
 .navbar{
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   background-color: $bgd-color;
   color: $font-color;
+}
+
+#capa{
+  background-color: $bgd-capa;
+}
+
+#capa-servicos{
+  background-color: $bgd-capa-servicos;
+}
+
+.jumbotron{
+  background-color: transparent;
 }
