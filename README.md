@@ -1,7 +1,7 @@
 ## :bookmark: Node.js
-*Descrisão do layout*
+*Layout front-end com Node.js*
 
-Texto da Descrisão ...
+  Layout de template em  `express.handlebars` para desenvolvimento de front-end com node.js.
 
 - Instalação do *Layout front-end*
 
