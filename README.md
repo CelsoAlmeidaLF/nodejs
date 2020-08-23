@@ -10,8 +10,11 @@
 # clona do repositorio github
 $ git clone http://github.com/CelsoAlmeidaLF/nodejs
 
-# instala as depedencias executa o projeto
+# instalar as depedencias executa o projeto
 $ npm i && npm run build
+
+# executar o projeto
+$ npm run start
 
 ```
 
@@ -24,3 +27,5 @@ $ npm i && npm run build
 - `express-handlebars`
 
 - `webpack`
+
+- `babel`
